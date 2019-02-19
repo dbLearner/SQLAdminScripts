@@ -1,0 +1,9 @@
+set ANSI_NULLS on 
+set ANSI_PADDING on
+set ANSI_WARNINGS on
+set ARITHABORT on
+set CONCAT_NULL_YIELDS_NULL on
+set QUOTED_IDENTIFIER on
+set NUMERIC_ROUNDABORT off
+reconfigure
+

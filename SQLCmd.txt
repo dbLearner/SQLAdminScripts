@@ -1,0 +1,10 @@
+sqlcmd –S DBSERVER1\SQLINSTANCE1
+
+1> USE AdventureWorks
+2> SELECT ProductID, ListPrice FROM Production.Product
+3> WHERE ProductID < 3
+4> GO
+
+SQLCMD –A
+1> SHUTDOWN WITH NOWAIT
+2> GO
